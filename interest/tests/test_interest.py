@@ -1,4 +1,8 @@
-import interest_sc as ci
-print(ci.compound_interest(1000, 5, 2)) # 102.5
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-#interest_sc\compound_interest.py,interest_sc
+import interest_sct as ci
+print(ci.cd_interest(1000, 5, 2)) 
+print(ci.si_interest(1000, 5, 2))
+print(ci.total_amount(1000, 5, 2))
