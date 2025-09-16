@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "interest"
+name = "interest_sct"
 version = "0.1.0"
 description = "A simple module to calculate Simple and Compound Interest."
 readme = "README.md"
